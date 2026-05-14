@@ -1,6 +1,6 @@
 # Sonido estéreo y ficheros WAVE
 
-## Nom i cognoms
+## Xavi Fernández Rodríguez
 
 > [!Important]
 > Introduzca a continuación su nombre y apellidos:
