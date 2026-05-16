@@ -206,6 +206,25 @@ Inserte a continuación el código de los métodos desarrollados en esta tarea, 
 para que se realice el realce sintáctico en Python del mismo (no vale insertar una imagen o una captura de
 pantalla, debe hacerse en formato *markdown*).
 
+```python
+# Pruebas realizadas
+
+# Conversión estéreo -> mono
+estereo2mono("komm.wav", "mono_L.wav", 0)     # Canal izquierdo
+estereo2mono("komm.wav", "mono_R.wav", 1)     # Canal derecho
+estereo2mono("komm.wav", "mono_sum.wav", 2)   # Semisuma
+estereo2mono("komm.wav", "mono_diff.wav", 3)  # Semidiferencia
+
+# Reconstrucción estéreo
+mono2estereo("mono_L.wav", "mono_R.wav", "reconstruido.wav")
+
+# Codificación estéreo compatible con mono
+codEstereo("komm.wav", "codificado.wav")
+
+# Decodificación
+decEstereo("codificado.wav", "decodificado.wav")
+```
+
 ##### Código de `estereo2mono()`
 ```python
 def estereo2mono(ficEste, ficMono, canal=2):
