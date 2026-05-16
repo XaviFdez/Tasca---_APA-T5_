@@ -200,12 +200,6 @@ Para ello, se recomienda usar la canción [Komm, gib mir deine Hand](wav/komm.wa
 De todos modos, recuerde que, aunque sea en alemán, se trata de los Beatles, así que procure no destrozar
 innecesariamente la canción.
 
-#### Código desarrollado
-
-Inserte a continuación el código de los métodos desarrollados en esta tarea, usando los comandos necesarios
-para que se realice el realce sintáctico en Python del mismo (no vale insertar una imagen o una captura de
-pantalla, debe hacerse en formato *markdown*).
-
 ```python
 # Pruebas realizadas
 
@@ -224,6 +218,14 @@ codEstereo("komm.wav", "codificado.wav")
 # Decodificación
 decEstereo("codificado.wav", "decodificado.wav")
 ```
+
+#### Código desarrollado
+
+Inserte a continuación el código de los métodos desarrollados en esta tarea, usando los comandos necesarios
+para que se realice el realce sintáctico en Python del mismo (no vale insertar una imagen o una captura de
+pantalla, debe hacerse en formato *markdown*).
+
+
 
 ##### Código de `estereo2mono()`
 ```python
