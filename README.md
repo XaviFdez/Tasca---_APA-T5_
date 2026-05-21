@@ -200,6 +200,8 @@ Para ello, se recomienda usar la canción [Komm, gib mir deine Hand](wav/komm.wa
 De todos modos, recuerde que, aunque sea en alemán, se trata de los Beatles, así que procure no destrozar
 innecesariamente la canción.
 
+Ejecutamos los el archivo en la consola de JupyterLab para commprobar el funcionamiento del codigo
+<img width="513" height="248" alt="image" src="https://github.com/user-attachments/assets/fee5f171-40b3-47f6-a1c4-7bf20c22b5a3" />
 
 
 #### Código desarrollado
