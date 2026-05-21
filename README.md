@@ -200,24 +200,7 @@ Para ello, se recomienda usar la canción [Komm, gib mir deine Hand](wav/komm.wa
 De todos modos, recuerde que, aunque sea en alemán, se trata de los Beatles, así que procure no destrozar
 innecesariamente la canción.
 
-```python
-# Pruebas realizadas
 
-# Conversión estéreo -> mono
-estereo2mono("komm.wav", "mono_L.wav", 0)     # Canal izquierdo
-estereo2mono("komm.wav", "mono_R.wav", 1)     # Canal derecho
-estereo2mono("komm.wav", "mono_sum.wav", 2)   # Semisuma
-estereo2mono("komm.wav", "mono_diff.wav", 3)  # Semidiferencia
-
-# Reconstrucción estéreo
-mono2estereo("mono_L.wav", "mono_R.wav", "reconstruido.wav")
-
-# Codificación estéreo compatible con mono
-codEstereo("komm.wav", "codificado.wav")
-
-# Decodificación
-decEstereo("codificado.wav", "decodificado.wav")
-```
 
 #### Código desarrollado
 
